@@ -1,0 +1,1028 @@
+﻿[2015.07.24-08.47.46:853][  0]Log file open, 07/24/15 10:47:46
+[2015.07.24-08.47.46:853][  0]LogInit:Display: Running engine for game: Try_1
+[2015.07.24-08.47.46:853][  0]LogInit:Display: RandInit(-1843643653) SRandInit(-1843643652).
+[2015.07.24-08.47.46:853][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.24-08.47.46:853][  0]LogStats: Stats thread started
+[2015.07.24-08.47.46:853][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.24-08.47.46:853][  0]LogInit: API Version: 2579680
+[2015.07.24-08.47.46:853][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.24-08.47.46:853][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.24-08.47.46:853][  0]LogInit: Build Configuration: Development
+[2015.07.24-08.47.46:853][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.24-08.47.46:853][  0]LogInit: Command line: 
+[2015.07.24-08.47.46:854][  0]LogInit: Base directory: D:/UNREAL/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.24-08.47.46:854][  0]LogInit: Rocket: 1
+[2015.07.24-08.47.46:889][  0]LogInit: Using libcurl 7.41.0
+[2015.07.24-08.47.46:889][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.24-08.47.46:889][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.24-08.47.46:889][  0]LogInit:  - other features:
+[2015.07.24-08.47.46:889][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.24-08.47.46:889][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.24-08.47.46:889][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.24-08.47.46:889][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.24-08.47.46:889][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.24-08.47.46:889][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.24-08.47.46:889][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.24-08.47.46:889][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.24-08.47.46:889][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.24-08.47.46:889][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.24-08.47.46:922][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.24-08.47.46:986][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.24-08.47.47:007][  0]LogInit: Object subsystem initialized
+[2015.07.24-08.47.47:010][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.24-08.47.47:010][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/A PROJECTS/UNREAL/Try_1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.24-08.47.47:010][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.24-08.47.47:010][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/A PROJECTS/UNREAL/Try_1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.24-08.47.47:010][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.24-08.47.47:010][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/A PROJECTS/UNREAL/Try_1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.24-08.47.47:011][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.24-08.47.47:011][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.24-08.47.47:033][  0]LogInit: Computer: SHADOW
+[2015.07.24-08.47.47:033][  0]LogInit: User: hooky000
+[2015.07.24-08.47.47:033][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.24-08.47.47:033][  0]LogInit: High frequency timer resolution =2.241003 MHz
+[2015.07.24-08.47.47:033][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.07.24-08.47.47:033][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.24-08.47.47:033][  0]LogMemory: Process Physical Memory: 48.67 MB used, 48.67 MB peak
+[2015.07.24-08.47.47:033][  0]LogMemory: Process Virtual Memory: 24.78 MB used, 24.78 MB peak
+[2015.07.24-08.47.47:033][  0]LogMemory: Physical Memory: 3569.93 MB used, 16240.93 MB total
+[2015.07.24-08.47.47:033][  0]LogMemory: Virtual Memory: 294.65 MB used, 134217728.00 MB total
+[2015.07.24-08.47.47:250][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.24-08.47.47:875][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/UNREAL/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/UNREAL/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.24-08.47.49:049][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 650M   (Feature Level 11_0)
+[2015.07.24-08.47.49:049][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.07.24-08.47.49:091][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 650M   (Feature Level 11_0)
+[2015.07.24-08.47.49:091][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.07.24-08.47.49:106][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.24-08.47.49:106][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.07.24-08.47.49:106][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.24-08.47.49:116][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.47.49:116][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.24-08.47.49:116][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.24-08.47.49:148][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.24-08.47.49:175][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.24-08.47.51:803][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.24-08.47.51:844][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.24-08.47.51:884][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.24-08.47.51:924][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.24-08.47.51:969][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.24-08.47.52:005][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.24-08.47.52:041][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.24-08.47.52:077][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.24-08.47.52:114][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.24-08.47.52:150][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.24-08.47.52:186][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.24-08.47.52:222][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.24-08.47.52:355][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.24-08.47.52:391][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.24-08.47.52:427][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.24-08.47.52:469][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.24-08.47.52:469][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.24-08.47.53:189][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.24-08.47.53:297][  0]LogDerivedDataCache: Loaded boot cache 0.11s 53MB C:/Users/hooky_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.24-08.47.53:297][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/hooky_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.24-08.47.53:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../A PROJECTS/UNREAL/Try_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.24-08.47.53:297][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.24-08.47.53:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../A PROJECTS/UNREAL/Try_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.24-08.47.53:297][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.24-08.47.53:729][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.24-08.47.53:745][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hooky_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.24-08.47.55:792][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.24-08.47.56:011][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.24-08.47.56:012][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.24-08.47.56:090][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.24-08.47.56:090][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.24-08.47.56:932][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.24-08.48.00:750][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.24-08.48.01:706][  0]SourceControl: Info Source control is disabled
+[2015.07.24-08.48.01:708][  0]SourceControl: Info Source control is disabled
+[2015.07.24-08.48.01:738][  0]SourceControl: Info Source control is disabled
+[2015.07.24-08.48.01:767][  0]SourceControl: Info Source control is disabled
+[2015.07.24-08.48.02:491][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.24-08.48.02:491][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.24-08.48.02:678][  0]LogEngine: Initializing Engine...
+[2015.07.24-08.48.02:684][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.24-08.48.02:709][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.24-08.48.03:164][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.24-08.48.03:187][  0]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.24-08.48.03:310][  0]LogInit: FAudioDevice initialized.
+[2015.07.24-08.48.03:361][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/hooky_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.24-08.48.03:369][  0]LogInit: Texture streaming: Disabled
+[2015.07.24-08.48.03:435][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.24-08.48.03:435][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.24-08.48.03:435][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0ed3af18429ee1eeeefd91a1be868d0d|e010a70c7c7f4f2888452a4b50eeb526|13e4c4d9-078d-4e2f-b402-a8e53b84c967
+[2015.07.24-08.48.03:436][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.24-08.48.03:511][  0]LogInit: Transaction tracking system initialized
+[2015.07.24-08.48.03:869][  0]BlueprintLog: New page: Editor Load
+[2015.07.24-08.48.03:947][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
+[2015.07.24-08.48.03:948][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.24-08.48.06:034][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.24-08.48.06:034][  0]LogConsoleResponse:Display: 
+[2015.07.24-08.48.06:380][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.24-08.48.06:929][  0]SourceControl: Info Source control is disabled
+[2015.07.24-08.48.06:929][  0]Cmd: MAP LOAD FILE="../../../../../../A PROJECTS/UNREAL/Try_1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.24-08.48.06:977][  0]LightingResults: New page: Lighting Build
+[2015.07.24-08.48.07:011][  0]MapCheck: New page: Map Check
+[2015.07.24-08.48.07:011][  0]LightingResults: New page: Lighting Build
+[2015.07.24-08.48.07:035][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D7C0828B80
+[2015.07.24-08.48.14:167][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.07.24-08.48.14:200][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.24-08.48.16:064][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.24-08.48.16:294][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 229.903ms to complete.
+[2015.07.24-08.48.16:294][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.366
+[2015.07.24-08.48.16:618][  0]LogCollectionManager: Loaded 0 collections in 0.003809 seconds
+[2015.07.24-08.48.16:637][  0]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 1792 classes and 301 folders.
+[2015.07.24-08.48.16:801][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2015.07.24-08.48.17:105][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.07.24-08.48.17:149][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2015.07.24-08.48.17:512][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.24-08.48.17:516][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.48.17:523][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.24-08.48.17:547][  0]LogLoad: Full Startup: 35.67 seconds (BP compile: 1.67 seconds)
+[2015.07.24-08.48.17:557][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.24-08.48.17:928][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.24-08.48.18:069][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.24-08.48.18:560][  0]LogRenderer: Reallocating scene render targets to support 960x488 (Frame:2).
+[2015.07.24-08.48.18:963][  2]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.48.19:852][ 18]LogAssetRegistry: Asset discovery search completed in 15.9163 seconds
+[2015.07.24-08.48.38:156][815]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.48.49:032][210]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.48.49:089][211]LogActorFactory: Actor Factory created SM_Door
+[2015.07.24-08.48.50:161][247]LogActorFactory: Actor Factory created SM_Door
+[2015.07.24-08.49.12:911][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2015.07.24-08.50.10:733][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2015.07.24-08.50.56:864][356]Cmd: DELETE
+[2015.07.24-08.50.56:864][356]Cmd: ACTOR DELETE
+[2015.07.24-08.50.56:867][356]LogEditorActor: Deleted Actor: Brush
+[2015.07.24-08.50.57:115][356]LogEditorActor: Deleted 1 Actors (0.250 secs)
+[2015.07.24-08.50.59:007][438]Cmd: TRANSACTION UNDO
+[2015.07.24-08.50.59:007][438]LogEditorTransaction: Undo Delete Actors
+[2015.07.24-08.50.59:087][438]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.51.01:774][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-08.51.33:039][789]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.07.24-08.51.38:126][992]Cmd: DELETE
+[2015.07.24-08.51.38:126][992]Cmd: ACTOR DELETE
+[2015.07.24-08.51.38:128][992]LogEditorActor: Deleted Actor: TriggerBox_Blueprint_C
+[2015.07.24-08.51.38:164][992]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2015.07.24-08.51.50:916][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2015.07.24-08.52.28:943][ 57]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.53.12:075][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-08.53.30:801][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-08.53.31:650][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-08.56.25:922][ 12]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.56.28:798][ 12]LogSavePackage: Save=2375.439453ms
+[2015.07.24-08.56.28:798][ 12]LogSavePackage: Moving '../../../../../../A PROJECTS/UNREAL/Try_1/Saved/ThirdPersonExampleMapD008A2A84350EE8478DD3BA283FE3EC9.tmp' to '../../../../../../A PROJECTS/UNREAL/Try_1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.07.24-08.56.29:808][ 44]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.56.33:140][222]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.56.34:927][292]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.56.34:975][292]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.56.35:060][292]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.24-08.56.35:364][292]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.24-08.56.37:852][292]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.56.42:611][441]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.56.46:949][615]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.57.45:156][929]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.57.45:527][945]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.59.24:356][489]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.59.37:624][228]LogD3D11RHI: InitD3DDevice
+[2015.07.24-08.59.48:512][723]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.00.31:036][326]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.00.39:243][968]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.01.14:114][239]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.01.25:309][139]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.02.39:575][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.03.01:671][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.03.51:037][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.06.09:193][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.06.30:734][266]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.06.39:734][293]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.06.40:153][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.24-09.06.43:571][293]LogSavePackage: Save=2844.801270ms
+[2015.07.24-09.06.43:571][293]LogSavePackage: Moving '../../../../../../A PROJECTS/UNREAL/Try_1/Saved/ThirdPersonExampleMap_Auto10ABCCCB440FF3C5F17D68E947BAE2D9C.tmp' to '../../../../../../A PROJECTS/UNREAL/Try_1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.07.24-09.06.43:632][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 3.479
+[2015.07.24-09.06.43:633][293]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.479
+[2015.07.24-09.08.29:858][604]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.07.24-09.10.30:684][803]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.10.44:520][403]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.11.33:130][175]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.07.24-09.11.33:392][175]BlueprintEditorCompileResults: Info [1431.52] Compile of ThirdPersonExampleMap successful! [in 261 ms]
+[2015.07.24-09.11.34:979][343]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.07.24-09.11.35:221][343]BlueprintEditorCompileResults: Info [1433.35] Compile of ThirdPersonExampleMap successful! [in 242 ms]
+[2015.07.24-09.11.35:222][343]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.07.24-09.11.35:459][343]BlueprintEditorCompileResults: Info [1433.59] Compile of ThirdPersonExampleMap successful! [in 237 ms]
+[2015.07.24-09.11.49:475][300]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.12.16:387][512]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.13.36:015][507]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.13.36:918][592]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.13.37:548][626]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.13.57:799][299]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.13.58:900][408]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.13.59:295][432]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.14.26:077][262]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.14.26:637][308]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.16.10:857][219]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.16.27:656][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.16.30:849][426]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.17.04:427][226]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.17.05:739][363]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.17.24:882][845]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.17.42:079][113]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.17.51:079][140]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.17.54:576][140]LogSavePackage: Save=3056.171387ms
+[2015.07.24-09.17.54:576][140]LogSavePackage: Moving '../../../../../../A PROJECTS/UNREAL/Try_1/Saved/ThirdPersonExampleMap_Auto2021A940A4E9D02FD8F643B8C074FE250.tmp' to '../../../../../../A PROJECTS/UNREAL/Try_1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2015.07.24-09.17.54:587][140]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 3.183
+[2015.07.24-09.17.54:587][140]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.183
+[2015.07.24-09.19.07:663][617]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.19.13:815][ 63]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.19.20:608][676]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.19.21:995][796]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.19.22:533][829]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.19.43:655][972]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.19.44:378][ 31]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.20.56:906][608]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.19:032][821]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.23:685][157]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.26:683][385]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.27:982][492]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.29:996][652]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.40:769][517]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.45:730][936]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.48:759][161]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.56:472][736]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.21.58:741][902]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.22.06:364][479]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.22.19:398][501]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.22.24:590][900]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.22.42:511][297]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.23.28:918][583]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.23.30:360][705]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.23.39:885][351]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.23.45:455][836]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.25.08:345][  4]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.25.17:410][436]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.25.42:025][677]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.26.02:379][ 81]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.26.02:919][119]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.26.04:273][215]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.26.21:004][150]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.26.24:989][478]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.28.47:244][149]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.28.50:297][149]LogSavePackage: Save=2790.215820ms
+[2015.07.24-09.28.50:297][149]LogSavePackage: Moving '../../../../../../A PROJECTS/UNREAL/Try_1/Saved/ThirdPersonExampleMapFBC9B5384C1E06DC8263E9B57E35723C.tmp' to '../../../../../../A PROJECTS/UNREAL/Try_1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.07.24-09.28.51:641][196]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-09.28.51:672][196]LogPlayLevel: [PIE] Compiling ThirdPersonExampleMap before PIE...
+[2015.07.24-09.28.51:973][196]LogPlayLevel: PIE:  Blueprint regeneration took 331 ms (1 blueprints)
+[2015.07.24-09.28.52:108][196]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 24, 2015, 1:28:51 PM)
+[2015.07.24-09.28.52:109][196]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.07.24-09.28.52:177][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066941s)
+[2015.07.24-09.28.52:180][196]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.07.24-09.28.52:182][196]LogPlayLevel: PIE: World Init took: (0.005122s)
+[2015.07.24-09.28.52:182][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.072894s)
+[2015.07.24-09.28.52:269][196]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.24-09.28.52:290][196]LogInit: FAudioDevice initialized.
+[2015.07.24-09.28.52:490][196]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.07.24-09.28.52:519][196]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.07.24-11.28.52
+[2015.07.24-09.28.52:519][196]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-09.28.52:521][196]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-09.28.52:522][196]LogWorld: Bringing up level for play took: 0.025896
+[2015.07.24-09.28.52:528][196]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.003
+[2015.07.24-09.28.57:054][402]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:076][403]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:099][404]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:121][405]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:144][406]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:165][407]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:186][408]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:207][409]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:233][410]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:253][411]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:275][412]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:299][413]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:321][414]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:342][415]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:365][416]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:387][417]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:410][418]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:433][419]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:456][420]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:478][421]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:501][422]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:522][423]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:545][424]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:569][425]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:590][426]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:613][427]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:635][428]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:656][429]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:678][430]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:702][431]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:724][432]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:745][433]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:767][434]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:818][435]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:849][436]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:879][437]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:910][438]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:945][439]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.57:978][440]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:008][441]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:039][442]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:070][443]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:100][444]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:131][445]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:160][446]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:188][447]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:217][448]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:246][449]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:275][450]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:307][451]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:338][452]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:368][453]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:398][454]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:428][455]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:457][456]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:486][457]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:515][458]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:546][459]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:863][469]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:894][470]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:924][471]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:954][472]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.58:985][473]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:018][474]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:051][475]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:082][476]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:112][477]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:145][478]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:178][479]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:212][480]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:243][481]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:275][482]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:309][483]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:341][484]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:374][485]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:408][486]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:440][487]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:472][488]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:504][489]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:535][490]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:566][491]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:596][492]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:625][493]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:656][494]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:684][495]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:715][496]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:736][497]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:760][498]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:790][499]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:810][500]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:832][501]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:855][502]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:878][503]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:900][504]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:921][505]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:943][506]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:964][507]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.28.59:985][508]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:005][509]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:028][510]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:049][511]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:070][512]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:092][513]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:114][514]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:135][515]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:156][516]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:177][517]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:199][518]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:220][519]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:241][520]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:264][521]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:284][522]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:305][523]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:328][524]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:349][525]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:370][526]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:393][527]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:414][528]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:435][529]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:455][530]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:478][531]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:502][532]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:523][533]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:545][534]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:568][535]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:589][536]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:612][537]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:633][538]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:654][539]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:675][540]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:699][541]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:720][542]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:741][543]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:766][544]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:786][545]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:807][546]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:830][547]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:851][548]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:872][549]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:896][550]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:918][551]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:939][552]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:960][553]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.00:982][554]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:283][568]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:302][569]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:323][570]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:345][571]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:366][572]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:387][573]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:407][574]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:433][575]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:456][576]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:476][577]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:497][578]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:518][579]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:539][580]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:562][581]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:583][582]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:603][583]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:628][584]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:647][585]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:668][586]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:690][587]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:710][588]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:731][589]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:752][590]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:774][591]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:797][592]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:817][593]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:839][594]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:862][595]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:883][596]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:905][597]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:928][598]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:948][599]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:969][600]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.01:991][601]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:013][602]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:034][603]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:055][604]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:076][605]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:099][606]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:120][607]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:142][608]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:164][609]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:185][610]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:206][611]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:229][612]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:250][613]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:272][614]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:294][615]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:314][616]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:337][617]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:358][618]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:380][619]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:401][620]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:422][621]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:443][622]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:467][623]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:490][624]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:511][625]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:533][626]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:554][627]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:574][628]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:597][629]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:618][630]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:642][631]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:666][632]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:685][633]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:705][634]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:728][635]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:748][636]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.02:770][637]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:429][331]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:450][332]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:472][333]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:495][334]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:516][335]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:537][336]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:559][337]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:580][338]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:602][339]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:623][340]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:644][341]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:665][342]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:687][343]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:707][344]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:731][345]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:752][346]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:773][347]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:796][348]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:817][349]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:839][350]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:861][351]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:882][352]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:904][353]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:925][354]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:946][355]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:968][356]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.21:988][357]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:010][358]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:032][359]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:054][360]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:074][361]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:098][362]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:118][363]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:139][364]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:162][365]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:185][366]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:207][367]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:231][368]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:253][369]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:275][370]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:298][371]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:320][372]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:343][373]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:366][374]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:387][375]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:418][376]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:449][377]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:481][378]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:511][379]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:542][380]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:574][381]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:607][382]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:639][383]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:670][384]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:702][385]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:733][386]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:762][387]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:791][388]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:819][389]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:849][390]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:878][391]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:908][392]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:940][393]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.22:972][394]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.23:005][395]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.23:036][396]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.23:067][397]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.23:095][398]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.23:125][399]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:111][431]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:145][432]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:176][433]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:210][434]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:243][435]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:276][436]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:309][437]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:344][438]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:376][439]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:407][440]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:440][441]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:474][442]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:506][443]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:538][444]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:571][445]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:603][446]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:636][447]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:668][448]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:702][449]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:734][450]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:764][451]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:793][452]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:823][453]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:854][454]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:884][455]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:913][456]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:935][457]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:957][458]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.24:979][459]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:001][460]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:024][461]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:048][462]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:069][463]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:093][464]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:114][465]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:136][466]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:158][467]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:179][468]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:202][469]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:225][470]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:246][471]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:268][472]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:289][473]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:311][474]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:332][475]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:353][476]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:374][477]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:398][478]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:420][479]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:443][480]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:465][481]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:486][482]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:509][483]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:532][484]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:554][485]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:576][486]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:599][487]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:621][488]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:645][489]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:668][490]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:690][491]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:712][492]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:734][493]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:755][494]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:778][495]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:800][496]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:828][497]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:847][498]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:869][499]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:891][500]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:912][501]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:935][502]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:958][503]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.25:983][504]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:002][505]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:028][506]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:047][507]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:068][508]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:089][509]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:112][510]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:132][511]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:153][512]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:175][513]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.26:198][514]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.29.28:304][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D787242020
+[2015.07.24-09.29.32:239][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.29.32:928][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.29.33:570][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.07.24-09.29.33:725][793]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.07.24-09.29.34:679][826]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.07.24-09.30.02:824][691]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-09.30.02:855][691]LogPlayLevel: [PIE] Compiling ThirdPersonExampleMap before PIE...
+[2015.07.24-09.30.03:119][691]LogPlayLevel: PIE:  Blueprint regeneration took 295 ms (1 blueprints)
+[2015.07.24-09.30.03:120][691]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 24, 2015, 1:30:03 PM)
+[2015.07.24-09.30.03:121][691]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.07.24-09.30.03:176][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055482s)
+[2015.07.24-09.30.03:178][691]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.07.24-09.30.03:180][691]LogPlayLevel: PIE: World Init took: (0.003811s)
+[2015.07.24-09.30.03:180][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059880s)
+[2015.07.24-09.30.03:254][691]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.24-09.30.03:272][691]LogInit: FAudioDevice initialized.
+[2015.07.24-09.30.03:325][691]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.07.24-09.30.03:352][691]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.07.24-11.30.03
+[2015.07.24-09.30.03:352][691]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-09.30.03:354][691]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-09.30.03:355][691]LogWorld: Bringing up level for play took: 0.024471
+[2015.07.24-09.30.03:359][691]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.829
+[2015.07.24-09.30.06:433][827]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:454][828]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:477][829]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:498][830]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:520][831]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:542][832]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:564][833]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:585][834]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:606][835]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:629][836]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:650][837]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:671][838]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:694][839]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:714][840]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:735][841]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:756][842]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:778][843]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:800][844]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:821][845]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:845][846]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:867][847]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:888][848]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:910][849]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:932][850]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:954][851]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:979][852]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.06:999][853]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:021][854]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:044][855]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:066][856]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:086][857]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:108][858]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:130][859]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:153][860]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:174][861]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:197][862]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:218][863]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:238][864]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:261][865]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:282][866]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:303][867]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:325][868]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:347][869]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:368][870]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:390][871]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:411][872]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:432][873]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:453][874]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:475][875]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:497][876]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:518][877]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:539][878]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:562][879]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:583][880]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:605][881]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:628][882]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:648][883]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:671][884]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:695][885]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:718][886]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:739][887]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:762][888]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:782][889]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:803][890]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:825][891]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:847][892]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:868][893]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:890][894]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.07:911][895]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.14:790][209]Set new viewmode: Wireframe
+[2015.07.24-09.30.15:485][244]Set new viewmode: Wireframe
+[2015.07.24-09.30.16:085][276]Set new viewmode: Unlit
+[2015.07.24-09.30.16:794][318]Set new viewmode: Lit
+[2015.07.24-09.30.23:501][626]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:518][627]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:540][628]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:562][629]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:584][630]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:605][631]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:628][632]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:649][633]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:676][634]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:693][635]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:714][636]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:735][637]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:755][638]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:777][639]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:802][640]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:821][641]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:843][642]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:867][643]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:891][644]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:910][645]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:932][646]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:954][647]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:976][648]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.23:997][649]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:019][650]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:042][651]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:065][652]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:086][653]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:106][654]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:128][655]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:148][656]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:170][657]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:191][658]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:212][659]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:233][660]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:254][661]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:275][662]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:296][663]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:318][664]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:338][665]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:360][666]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:383][667]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:404][668]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:425][669]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:445][670]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:466][671]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:486][672]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:507][673]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:529][674]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:550][675]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:571][676]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:594][677]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:614][678]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:635][679]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:656][680]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:677][681]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:698][682]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:719][683]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:739][684]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:762][685]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:783][686]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:804][687]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:826][688]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:847][689]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:869][690]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:890][691]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:912][692]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:933][693]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:953][694]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.24:975][695]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:285][175]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:305][176]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:332][177]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:351][178]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:372][179]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:397][180]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:419][181]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:441][182]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:464][183]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:495][184]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:527][185]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:556][186]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:585][187]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:617][188]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:647][189]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:677][190]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:708][191]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:742][192]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:772][193]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:806][194]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:837][195]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:869][196]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:899][197]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:929][198]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:958][199]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.35:987][200]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:017][201]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:045][202]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:075][203]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:105][204]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:135][205]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:166][206]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:195][207]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:224][208]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:254][209]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:286][210]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:319][211]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:349][212]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:378][213]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:407][214]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:438][215]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:469][216]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:501][217]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:530][218]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:560][219]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:589][220]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:619][221]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:648][222]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:678][223]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:708][224]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:738][225]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.36:770][226]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.37:608][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D7C1255120
+[2015.07.24-09.30.38:847][294]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.30.40:611][355]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.30.46:980][573]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.24-09.30.47:011][573]LogPlayLevel: [PIE] Compiling ThirdPersonExampleMap before PIE...
+[2015.07.24-09.30.47:290][573]LogPlayLevel: PIE:  Blueprint regeneration took 309 ms (1 blueprints)
+[2015.07.24-09.30.47:290][573]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 24, 2015, 1:30:47 PM)
+[2015.07.24-09.30.47:291][573]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.07.24-09.30.47:364][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072680s)
+[2015.07.24-09.30.47:366][573]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.07.24-09.30.47:368][573]LogPlayLevel: PIE: World Init took: (0.003963s)
+[2015.07.24-09.30.47:368][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.077342s)
+[2015.07.24-09.30.47:446][573]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.24-09.30.47:463][573]LogInit: FAudioDevice initialized.
+[2015.07.24-09.30.47:517][573]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.07.24-09.30.47:543][573]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.07.24-11.30.47
+[2015.07.24-09.30.47:543][573]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-09.30.47:545][573]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.24-09.30.47:546][573]LogWorld: Bringing up level for play took: 0.023977
+[2015.07.24-09.30.47:551][573]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.02
+[2015.07.24-09.30.53:371][799]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:396][800]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:422][801]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:450][802]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:478][803]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:503][804]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:530][805]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:555][806]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:580][807]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:604][808]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:629][809]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:654][810]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:678][811]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:703][812]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:728][813]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:753][814]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:777][815]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:801][816]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:826][817]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:852][818]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:876][819]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:901][820]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:926][821]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:954][822]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.53:979][823]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:002][824]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:027][825]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:052][826]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:076][827]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:100][828]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:125][829]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:153][830]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:177][831]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:202][832]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:226][833]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:251][834]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:274][835]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:298][836]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:323][837]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:347][838]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:370][839]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:395][840]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:419][841]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:445][842]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:469][843]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:495][844]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:520][845]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:544][846]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:568][847]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:593][848]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:618][849]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:641][850]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:666][851]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:691][852]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:717][853]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:743][854]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:767][855]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:791][856]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:816][857]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:840][858]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.54:865][859]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.55:848][896]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.55:880][897]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.55:913][898]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.55:946][899]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.55:980][900]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:014][901]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:047][902]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:080][903]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:115][904]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:149][905]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:182][906]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:215][907]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:247][908]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:280][909]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:312][910]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:345][911]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:378][912]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:411][913]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:445][914]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:479][915]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:512][916]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:545][917]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:578][918]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:613][919]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:646][920]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:679][921]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:712][922]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:745][923]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:778][924]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:811][925]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:845][926]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:878][927]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:911][928]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:944][929]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.56:978][930]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:013][931]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:046][932]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:079][933]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:113][934]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:146][935]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:178][936]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:211][937]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:246][938]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:278][939]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:311][940]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.57:344][941]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:385][972]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:416][973]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:449][974]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:483][975]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:519][976]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:553][977]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:589][978]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:626][979]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:660][980]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:691][981]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:726][982]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:755][983]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:782][984]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:807][985]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:841][986]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:873][987]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:904][988]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:934][989]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.58:969][990]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.59:004][991]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.59:036][992]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.59:065][993]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.59:098][994]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.30.59:132][995]PIE:Warning: Warning Mobility of SM_Door_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.24-09.31.02:857][137]LogD3D11RHI: InitD3DDevice
+[2015.07.24-09.31.07:910][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D7C12
